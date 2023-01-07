@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+
+/**
+ *
+ * @author Bahar
+ */
+public class alfabedekisirakadaryildizyazdirma {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Büyük harflere bir kelime giriniz: ");
+        String txt = input.nextLine();
+        
+        for (int i = 0; i < txt.length(); i++) {
+            System.out.print(txt.charAt(i)+"->");
+            for (int j = 0; j < txt.charAt(i) - 64; j++) {
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
+    }
+    
+}
