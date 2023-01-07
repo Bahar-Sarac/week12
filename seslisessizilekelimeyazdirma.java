@@ -1,4 +1,3 @@
-//7.35
 
 import java.util.Scanner;
 
