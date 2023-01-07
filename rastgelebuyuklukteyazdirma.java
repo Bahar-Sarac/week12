@@ -25,7 +25,7 @@ public class rastgelebuyuklukteyazdirma {
                 System.out.print(Character.toUpperCase(txt.charAt(i)));
             }
             else{
-                System.out.print(Character.toLowerCase(txt.charAt(i)));
+                System.out.println(Character.toLowerCase(txt.charAt(i)));
             }
         }
     }
