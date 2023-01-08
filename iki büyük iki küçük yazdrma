@@ -1,18 +1,11 @@
 
 import java.util.Scanner;
 
-
-/**
- *
- * @author Bahar
- */
 public class ikibuyukikikucukyazdirma {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        
         System.out.println("Küçük harflere bir kelime giriniz: ");
         String txt=input.nextLine();
         int sayac = 0;
